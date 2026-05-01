@@ -30,3 +30,52 @@ int main() {
 
     return 0;
 }
+
+//nested loop
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int age;
+    
+    cin >> age;
+    if(age >= 18){
+        
+          if(age >= 50){
+        cout<< "senior citizen";
+        
+        
+    }else{
+        cout << "eligible";
+    }
+    
+    }else{
+        if(age<0){
+            cout<<"enter a valid age number";
+            }
+        else{
+            cout<<"not eligible";
+        }
+    }
+return 0;
+}
+
+//ternary operation
+#include <iostream>
+using namespace std;
+
+int main()
+{
+int a,b;
+int max_number;
+cout << "enter 1st number:";
+cin>> a;
+cout<<"enter 2nd number:";
+cin>>b;
+
+max_number = (a>b)? a:b;
+cout<<max_number;
+
+return 0;
+}
