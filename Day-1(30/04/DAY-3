@@ -1,0 +1,15 @@
+// smartphone unlock
+#include <iostream>
+using namespace std;
+
+int main() {
+    int password;
+    do { 
+        cout <<"enter oyur password....";
+        cin>> password;}
+        while(password !=1234);
+        
+        cout << "phone unlocked...";
+        
+    return 0;
+}
